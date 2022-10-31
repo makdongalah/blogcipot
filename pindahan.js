@@ -1,7 +1,7 @@
 function updateme(){
 
 var a=document.getElementById("tbl1").innerHTML;
-var k='https://movielot.us/play.php?movie='+a;
+var k='https://movieright.us/play.php?movie='+a;
 var c=document.getElementById("tbl2").innerHTML;
 var c2=c.replace(c,'<center><a href="https://movielot.us/play.php?movie='+a+'" title="Download Now"  target="_blank"  id="ke"><img src="http://4.bp.blogspot.com/-MVfO3Jc-NSg/U7C1Y_btgCI/AAAAAAAAAPM/8k_3ZKMiI6o/s1600/download-hd.png" style="cursor:pointer;" alt="Watch Now" /></a></center>');
 document.getElementById("tbl2").innerHTML=c2;
