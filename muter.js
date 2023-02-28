@@ -12,7 +12,7 @@ var s=document.getElementById("pst").innerHTML;
 var s2=s.replace(s,'<img src="http://grab.movieright.us/img/poster.php?img='+a+'" width="200" height="300" />');
 document.getElementById("pst").innerHTML=s2;
 var a2=a.replace(a,'<br /><center><a href="javascript:void()" title="Watch Now" id="tuju2" onclick="noti()" target="_blank"><img src="http://2.bp.blogspot.com/-D8I6lMViCL4/U7C1fHM5MOI/AAAAAAAAAPU/Uisua7fLIKY/s1600/watch-hd.png" style="cursor:pointer;"/></a></center>');
-document.getElementById("tbl1").innerHTML=a2;
+document.getElementById("pindah1").innerHTML=a2;
 }
 
 function noti(){
